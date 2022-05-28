@@ -6,6 +6,8 @@ public class App {
 
         System.out.println("Hello Neighbor!");
 
+        System.out.println("Hello from Raspbery Pi!");
+
     }
     
 }
