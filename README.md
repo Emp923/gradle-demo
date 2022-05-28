@@ -2,7 +2,7 @@
 
 Demo application for working with Gradle
 
-## Quick Start Guild
+## Quick Start Guide
 
 Run all tests and build application
 ```
