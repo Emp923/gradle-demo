@@ -12,3 +12,12 @@ repositories {
 dependencies {
     testImplementation('junit:junit:4.13.1')
 }
+
+task runApp(type: Exec) {
+    group 'demo'
+    description 'run application'
+
+    dependsOn 'build'
+
+    commandLine 'java', '-cp', 'build/libs/gradle-demo-0.0.1-SNAPSHOT.jar', 'com.epenrod.App'
+}
